@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="library.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="inscription.css">
+    <link rel="stylesheet" href="connection.css">
+</head>
+
+<body>
+    <header class="header">
+
+        <li><img src="logo11_18_175338.png" alt="link" width="180px"></li>
+
+    </header>
+    <section>
+        <form action="supprimerauteur.php" method="POST">
+            <div class="mesfond">
+                <p><i class="fa fa-google"></i></p>
+                <p><i class="fa fa-facebook"></i></p>
+                <p><i class="fa fa-youtube"></i></p>
+                <p><i class="fa fa-instagram"></i></p>
+            </div>
+            <h1>
+                Supprimer Auteur
+            </h1><br>
+            <div class="input">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="nom_auteur">Id_auteur:</label>
+                        </td>
+                        <td>
+                            <input type="number" name="id_auteur" id="id_auteur">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div align="center">
+                <input type="submit" value="supprime" class="but">
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>

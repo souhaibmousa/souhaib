@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="library.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="inscription.css">
+    <link rel="stylesheet" href="connection.css">
+</head>
+
+<body>
+    <header class="header">
+
+        <li><img src="logo11_18_175338.png" alt="link" width="180px"></li>
+
+    </header>
+    <section>
+        <form action="ajouterauteur.php" method="POST">
+            <h1>
+                <center>Ajouter auteur!</center>
+            </h1><br>
+            <div class="input">
+                <table>
+                    <h2>
+                        <center>saisir information!</center>
+                    </h2><br>
+                    <!-- <tr>
+                        <td>
+                            <label for="id_auteur">id auteur:</label>
+                        </td>
+                        <td>
+                            <input type="number" name="id_auteur" id="id_auteur">
+                        </td>
+                    </tr> -->
+                    <tr>
+                        <td>
+                            <label for="nom_auteur">Nom auteur:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="nom_auteur" id="nom_auteur">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="prenom_auteur">Prenom auteur:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="prenom_auteur" id="prenom_auteur">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="date_naiss">date naissance:</label>
+                        </td>
+                        <td>
+                            <input type="date" name="date_naissance" id="date_naiss">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Adresse">Adresse:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="adresse" id="Adresse">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Email">Email:</label>
+                        </td>
+                        <td>
+                            <input type="email" name="email" id="Email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="genrer">genrer:</label>
+                        </td>
+                        <td><select name="genrer">
+                            <option value="femme">femme</option>
+                            <option value="homme">homme</option>
+                        
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Nationnalite">Nationnalite:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="nationnalite" id="Nationnalite">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div align="center">
+                <input type="submit" value="Ajouter" class="but">
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>

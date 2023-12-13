@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Poppins',sans-serif;
+  
+  }
+
+
+body{
+  font-family:'Times New Roman', Times, serif;  
+  background:url(image.jpg) no-repeat center;
+background-size:cover;
+background-position:center;
+}
+
+section h3{
+  background-color: black;
+text-align: center;
+text-transform: uppercase;
+color:white;
+}
+
+.header{
+  size: 10px;
+position:fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 3px 100px;
+background:transparent;
+display:flex;
+justify-content:space-between;
+align-items: center;
+z-index: 99;
+margin-top: -35px;
+}
+
+.header li{
+margin-left: -99px;
+
+}
+
+.navbar   a{
+  position: relative;
+  font-size: 1.0em;
+  color:aliceblue;
+  font-weight: 100;
+  text-decoration: none;
+  margin-left: 40px;
+width: 100%;
+height: 80px;
+
+}
+
+.navbar .souhaib {
+  outline: none;
+  background-color:antiquewhite; 
+  border : 2px solid green;
+  cursor: pointer;
+  border-radius: 6px;
+  color: black;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  display:flexbox;
+  font-size: 9px;
+}
+
+.navbar .button {
+
+  background-color: rgba(255,255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 20px;
+  transition: all 0.5 ease;
+  background-color:green; /* Green */
+  border: none;
+  color:antiquewhite;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration:none;
+  display:flexbox;
+  font-size: 16px;
+  border : 2px solid green;
+  border-radius: 9px;
+  font-size: 1.0em;
+}
+.navbar .button a:hover{
+  color: #232662;
+  background: #ffffff;
+  }
+
+ .coco{
+  border: none;
+  color: aliceblue;
+  padding: auto;
+  text-shadow: 20px;
+  text-align: center;
+  border: 2px solid white;
+  background-color:green; /* Green */
+padding:9.11px 5px ;
+cursor: pointer;
+border-radius: 6px;
+ }
+
+ .toto{
+  display: flex;
+flex-wrap: wrap;
+ }
+
+
+ .footer{
+font-size: 'Poppins',sans-serif;
+  background-color:black;
+  padding: 70px 0;
+  margin-top: 500px;
+ }
+
+ .gigi{
+  min-width: 1170px;
+  background-color:black;
+  margin: auto;
+ }
+
+ ul{
+  list-style: none;
+ }
+
+
+ .fofo{
+width: 25%;
+padding:0 15px;
+align-items: center;
+
+ }
+
+ .fofo h4{
+font-size: 18px;
+color: #ffff;
+text-transform: capitalize;
+margin-bottom: 30px;
+font-weight: 500;
+position: relative;
+
+ }
+ .fofo h4::before{
+content: '';
+position: absolute;
+left: 0;
+bottom: -10px;
+background-color: #e91ee9;
+height: 2px;
+box-sizing: border-box;
+width: 50px;
+ }
+
+ .fofo ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+
+.fofo ul li a{
+font-size: 16px;
+text-transform: capitalize;
+color: #ffff;
+text-decoration: none;
+font-weight: 300;
+color: #bbbb;
+display: block;
+transition: all 0.3s ease;
+
+}
+
+
+.fofo ul li a:hover{
+  color:#ffffff;
+  padding-left: 8px;
+}
+.fofo .media a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius:50%;
+  color:#ffff;
+  transition: all 0.5 ease;
+}
+.fofo .media a:hover{
+color: #232662;
+background-color: #ffffff;
+}
+
+.fofo ul li a{
+font-size: 16px;
+text-transform: capitalize;
+color: #ffff;
+text-decoration: none;
+font-weight: 300;
+color:#bbbb;
+display: block;
+}
+
+.imag{
+display: flex;
+animation-duration: 20s;
+animation-name: mesimages;
+animation-iteration-count: infinite;
+}
+
+@keyframes mesimages{
+0% {
+  transform: translateX(0);
+}
+25%{
+
+transform: translateX(-240px);
+}
+50%{
+  transform: translateX(-390px);
+}
+
+75%{
+  transform: translateX(-1020px);
+}
+100%{
+  transform: translateX(0px);
+}
+
+}
+
+#caroussel{
+width: 1640px;
+overflow:hidden;
+border: 2px solid #333;
+}
+
+section {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+margin-top: 150px;
+}
+.jiji{
+  background-color: #333;
+  margin-top: 50px;
+  border : 2px solid white;
+  border-radius: 9px;
+}

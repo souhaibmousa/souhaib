@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&dispay=swap');
+table{
+    margin-top:20px;
+    background-color:gray;
+    padding: 40px 60px;
+    border-radius: 10px;
+    min-width: 300px;
+    
+     }
+
+     table a{
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+      }
+body head{
+    color:antiquewhite;
+    border : 2px solid green;
+
+}
+
+      body{
+        font-family:'Times New Roman', Times, serif;  
+        background:url(souhaib.jpg) no-repeat center;
+      background-size:cover;
+      background-position:center;
+    color: white;
+      }
+
+      
+table .button {
+
+    background-color: rgba(255,255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 20px;
+    transition: all 0.5 ease;
+    background-color:green; /* Green */
+    border: none;
+    color:gray;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration:none;
+    display:flexbox;
+    font-size: 16px;
+    border : 2px solid green;
+    border-radius: 9px;
+    font-size: 1.0em;
+  }
+  table .button a:hover{
+    color: #232662;
+    background: #ffffff;
+    }
+  
